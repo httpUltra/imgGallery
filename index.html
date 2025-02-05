@@ -9,10 +9,22 @@
 <body>
   <h1>Gallery</h1>
   <div class="gallery">
-    <div class="item"> <img src="PASTE CAT IMG" alt="stinky cat" class="thumbnail"> <h2>Stinky Guy</h2></div>
-    <div class="item"> <img src="PASTE ANOTHER CAT IMG" alt="cool cat cat" class="thumbnail"> <h2>Neat Guy</h2></div>
-    <div class="item"> <img src="PASTE ONE MORE CAT IMG" alt="scary cat" class="thumbnail"> <h2>Terrifying Guy</h2></div>
+    <div class="item">
+        <img onclick="showModal(this)" src="https://mimo.app/i/whispurr.png" alt="stinky cat" class="thumbnail"> <h2>Stinky Guy</h2>
+    </div>
+    <div class="item">
+        <img onclick="showModal(this)" src="https://mimo.app/i/babaganoosh.png" alt="cool cat cat" class="thumbnail"> <h2>Neat Guy</h2>
+    </div>
+    <div class="item">
+        <img onclick="showModal(this)" src="https://mimo.app/i/nacho.png" alt="scary cat" class="thumbnail"> <h2>Terrifying Guy</h2>
+    </div>
+  </div>
+  <div id="modal">
+    <span id="modal-close-button">X</span>
+    <img src="" id="modal-content">
   </div>
   <script src="script.js"></script>
 </body>
 </html>
+
+
